@@ -29,8 +29,6 @@ RUN apt-get update && \
     vim && \
     rm -rf /var/lib/apt/lists/*
 
-RUN ln -s /usr/bin/python3 /usr/bin/python
-
 WORKDIR /root
 
 RUN git clone https://github.com/UMD-Summer-2021-ASR/idlak
