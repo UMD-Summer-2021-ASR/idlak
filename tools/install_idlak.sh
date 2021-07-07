@@ -18,7 +18,7 @@ echo "****(1) Installing expat"
 
 (
   rm -f expat-2.1.0.tar.gz 2>/dev/null
-  wget -T 10 -t 3 https://sourceforge.net/projects/expat/files/expat/2.1.0/expat-2.1.0.tar.gz
+  wget -T 10 -t 3 https://src.fedoraproject.org/repo/pkgs/expat/expat-2.1.0.tar.gz/dd7dab7a5fea97d2a6a43f511449b7cd/expat-2.1.0.tar.gz
   if [ ! -e expat-2.1.0.tar.gz ]; then
     echo "****download of expat-2.1.0.tar.gz failed."
     exit 1
