@@ -15,6 +15,8 @@ RUN apt-get update && \
     subversion \
     python2.7 \
     python3 \
+    python-dev \
+    python3-dev \
     zlib1g-dev \
     ca-certificates \
     gfortran \
